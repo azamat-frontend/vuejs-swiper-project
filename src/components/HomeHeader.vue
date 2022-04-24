@@ -20,6 +20,14 @@
         <div class="menu-button"></div>
       </div>
     </div>
+
+    <div class="home-header__content">
+      <div class="home-aside">
+        <div class="home-aside__decoration">1</div>
+        <div class="home-aside__socials">2</div>
+        <div class="home-aside__share"></div>
+      </div>
+    </div>
   </header>
 </template>
 

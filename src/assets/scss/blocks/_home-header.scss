@@ -2,6 +2,11 @@
   background-color: $deep;
   height: 100%;
   color: #fff;
+  padding-top: $size;
+
+  &__content {
+    height: 100%;
+  }
 }
 
 .top-line {
@@ -90,7 +95,6 @@
   position: relative;
   height: $size;
 }
-
 .menu-button {
   position: absolute;
   top: 0;
@@ -105,5 +109,37 @@
   cursor: pointer;
   &:hover {
     background-color: $accent;
+  }
+}
+
+.home-aside {
+  background-color: $dark;
+  width: $size;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  padding-top: $size;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+
+  &__decoration {
+    flex: 1 0 0;
+  }
+
+  &__socials {
+    flex: 1 0 0;
+  }
+
+  &__share {
+    background-color: $accent;
+    width: $size;
+    flex: 0 0 $size;
+    background-image: url('@/assets/images/share.svg');
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: center;
   }
 }
