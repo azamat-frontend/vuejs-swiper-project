@@ -22,10 +22,48 @@
     </div>
 
     <div class="home-header__content">
-      <div class="home-aside">
-        <div class="home-aside__decoration">1</div>
-        <div class="home-aside__socials">2</div>
+      <aside class="home-aside">
+        <div class="home-aside__decoration"></div>
+        <div class="home-aside__socials">
+          <div class="home-aside__socials-items">
+            <a class="social-item" href="#" target="_blank">
+              <img src="@/assets/images/instagram.svg" alt="Instagram" />
+            </a>
+            <a class="social-item" href="#" target="_blank">
+              <img src="@/assets/images/telegram.svg" alt="Instagram" />
+            </a>
+            <a class="social-item" href="#" target="_blank">
+              <img src="@/assets/images/facebook.svg" alt="Instagram" />
+            </a>
+            <a class="social-item" href="#" target="_blank">
+              <img src="@/assets/images/twitter.svg" alt="Instagram" />
+            </a>
+          </div>
+        </div>
         <div class="home-aside__share"></div>
+      </aside>
+
+      <div class="slider-container">
+        slider container
+
+        <div class="slider-bottom">
+          <div class="slider-share">
+            <div class="slider-share__items">
+              <a class="social-item slider-share__item" href="#" target="_blank">
+              <img src="@/assets/images/instagram.svg" alt="Instagram" />
+              </a>
+              <a class="social-item slider-share__item" href="#" target="_blank">
+                <img src="@/assets/images/telegram.svg" alt="Instagram" />
+              </a>
+              <a class="social-item slider-share__item" href="#" target="_blank">
+                <img src="@/assets/images/facebook.svg" alt="Instagram" />
+              </a>
+            </div>
+          </div>
+          <div class="slider-pagination">222</div>
+          <div class="slider-scrollbar">333</div>
+          <div class="slider-navigation">444</div>
+        </div>
       </div>
     </div>
   </header>
