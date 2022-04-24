@@ -1,0 +1,17 @@
+// Font Load Section
+@mixin font($fname, $fstyle, $fweight, $furl) {
+  @font-face {
+    font-family: $fname;
+    font-style: $fstyle;
+    font-weight: $fweight;
+    src: url($furl) format('woff2');
+  }
+}
+
+@include font('oswald-vh', normal, 700, '@/assets/fonts/Oswald/Oswald-Bold.ttf');
+@include font('oswald-vh', normal, 500, '@/assets/fonts/Oswald/Oswald-Medium.ttf');
+@include font('raleway-vh', normal, 400, '@/assets/fonts/Raleway/Raleway-Regular.ttf');
+@include font('raleway-vh', normal, 500, '@/assets/fonts/Raleway/Raleway-Medium.ttf');
+@include font('raleway-vh', normal, 600, '@/assets/fonts/Raleway/Raleway-SemiBold.ttf');
+@include font('raleway-vh', normal, 800, '@/assets/fonts/Raleway/Raleway-ExtraBold.ttf');
+@include font('roboto-vh', normal, 500, '@/assets/fonts/Roboto/Roboto-Medium.ttf');
